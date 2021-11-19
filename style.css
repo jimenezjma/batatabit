@@ -93,3 +93,39 @@ header img{
     margin-left: 10px;
     background-image: url("./assets/icons/down-arrow.svg");
 }
+/*exchange section*/
+
+.main--exchange-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 775px;
+}
+
+.main--exchange-container .background-image{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 195px;
+    margin-top: 50px;
+}
+
+.main--exchange-container .main--exchange-container-text{
+    margin-top: 50px;
+    width: 288px;
+    height: 130px;
+    text-align: center;
+}
+
+.main--exchange-container-text h2{
+    font-size: 2.4rem;
+    line-height: 3rem;
+}
+
+.main--exchange-container-text p{
+    margin-top: 25px; 
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #757575;
+    font-weight: 500;
+}
